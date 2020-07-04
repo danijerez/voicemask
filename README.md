@@ -13,7 +13,7 @@ Mascarilla con arduino programado que imprime en una matriz de leds la boca segu
 |   |   |
 |---|---|
 |<img src="img/material/mask.jpg" width="20%"/>| mascarilla   |
-|<img src="img/material/conector.JPG" width="20%"/>| conector pila 9v   |
+|<img src="img/material/conector.jpg" width="20%"/>| conector pila 9v   |
 |<img src="img/material/cable.jpg" width="20%"/>| cable para soldar  |
 |<img src="img/material/pila-9v.jpg" width="20%"/>| bateria 9v   |
 |<img src="img/material/mini-usb.jpg" width="20%"/>| cable mini-usb  |
