@@ -13,9 +13,9 @@ Mascarilla con arduino programado que imprime en una matriz de leds la boca segu
 |   |   |
 |---|---|
 | mascarilla |<img src="img/material/mask.jpg" width="20%"/>  |
-| conector pila 9v |<img src="img/material/cable-9v.jpg" width="20%"/>  |
+| interruptor |<img src="img/material/interruptor.jpg" width="20%"/>  |
 | cable para soldar  |<img src="img/material/cable.jpg" width="20%"/>|
-| bateria 9v |<img src="img/material/pila-9v.jpg" width="20%"/>  |
+| bateria 3.7v |<img src="img/material/b3.7v.jpg" width="20%"/>  |
 | cable mini-usb  |<img src="img/material/mini-usb.jpg" width="20%"/>|
 
 # Herramientas
@@ -33,5 +33,14 @@ Mascarilla con arduino programado que imprime en una matriz de leds la boca segu
 | 2 |<img src="img/process/step2.jpg" width="40%"/> |
 | 3 |<img src="img/process/step3.jpg" width="40%"/> |
 | 4 |<img src="img/process/step4.jpg" width="40%"/> |
+
+
+# Pruebas
+|   |   |
+|---|---|
+|  1  |[<img src="img/icos/youtube.png" width="10%"/>](https://youtu.be/aRlW_2RHrB4 "voicemask - test 1")|
+|  2  |[<img src="img/icos/youtube.png" width="10%"/>](https://youtu.be/I8l_C90OtqM "voicemask - test 2")|
+
+
 
 [![N|Solid](https://i.imgur.com/DOMgrz2.png)](https://twitter.com/d4nijerez) 
