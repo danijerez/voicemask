@@ -71,7 +71,7 @@ const PROGMEM uint8_t mouth_smile[8][8] = {
 };
 
 #define PIN 3
-const int pinMicrophone = 0;
+const int pinMicrophone = 2;
 
 uint16_t palette[8] = {};
 Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(8, 8, PIN,
@@ -144,16 +144,16 @@ void loop() {
     if(millis() > smiletimer) smiling = false;
 
     if(smiling){
-        drawImage(mouth_smile);
-    } else if(vol < 200){
-        drawImage(mouth_0);
-    } else if(vol < 230){
-        drawImage(mouth_1);
-    } else if(vol < 270){
-        drawImage(mouth_2);
-    } else if(vol < 300){
-        drawImage(mouth_3);
+        drawImage((short)mouth_smile);
+    } else if(vol < 225){
+        drawImage((short)mouth_0);
+    } else if(vol < 250){
+        drawImage((short)mouth_1);
+    } else if(vol < 350){
+        drawImage((short)mouth_2);
+    } else if(vol < 380){
+        drawImage((short)mouth_3);
     } else {
-        drawImage(mouth_4);
+        drawImage((short)mouth_4);
     }
 }
