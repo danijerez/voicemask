@@ -1,5 +1,5 @@
-# Voicemask Arduino [EN CONSTRUCCIÓN]
-Mascarilla con arduino programado que imprime en una matriz de leds la boca segun la intensidad de un sonido. Codigo basado y modificado de TylerGlaiel
+# Voicemask Arduino
+Este proyecto es un prototipo de mascarilla con arduino programado, que imprime en una matriz de leds una representacion de la boca segun la intensidad de un sonido. Codigo basado y modificado de TylerGlaiel.
 
 # Electrónica
 |   |   |   |
