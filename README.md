@@ -1,5 +1,5 @@
 # Voicemask Arduino [EN CONSTRUCCIÓN]
-Mascarilla con arduino programado que imprime en una matriz de leds la boca segun la intensidad de un sonido. Codigo basado y modificado de https://github.com/TylerGlaiel/voicemask
+Mascarilla con arduino programado que imprime en una matriz de leds la boca segun la intensidad de un sonido. Codigo basado y modificado de TylerGlaiel
 
 # Electrónica
 |   |   |   |
@@ -45,10 +45,9 @@ Mascarilla con arduino programado que imprime en una matriz de leds la boca segu
 |  2  |[<img src="img/icos/youtube.png" width="10%"/>](https://youtu.be/I8l_C90OtqM "voicemask - test 2")|
 |  3 |[<img src="img/icos/youtube.png" width="10%"/>](https://youtu.be/xzhOVCTkhy0 "voicemask - resultado")|
 
-
-
-
-
+# Enlaces de interes
+* https://www.kickstarter.com/projects/jabbermask/jabbermask
+* https://www.youtube.com/watch?v=qnmPe6RFjsY
 
 
 [![N|Solid](https://i.imgur.com/DOMgrz2.png)](https://twitter.com/d4nijerez) 
