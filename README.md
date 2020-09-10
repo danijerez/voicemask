@@ -41,7 +41,7 @@ El proceso que yo segui es el siguiente:
 |  1  |<img src="img/process/step1.jpg" width="40%"/> | Quite los cables de la matriz de led que venian e hice un puente entre 5v y GND (tierra).  |
 | 2 |<img src="img/process/step2.jpg" width="40%"/> | Siguiendo el diagrama, de la matriz de leds sale Din (cable verde) que va al pin D3. Cable negro que va a GND y G del sensor de sonido, y cable rojo que va a 3v3 y + del sensor de sonido. Ademas del sensor de sonido conectamos A0 a A0 |
 | 3 |<img src="img/process/step4.jpg" width="40%"/> | Soldamos el consersor a GND y VCC. Ajustamos el voltaje con el regulador a 5.5v. Tambien añadimos el interruptor y la bateria. |
-| 4 |<img src="img/process/end.png" width="40%"/> | Haciendo algunas pruebas, hice algunos ajustes con una placa pcb que ocupa menos y realice algunas soldaduras un poco mejor. Requiere un poco de practica que el resultado sea perfecto. |
+| 4 |<img src="img/process/end.png" width="40%"/> | Haciendo algunas pruebas, hice algunos ajustes con una placa pcb que ocupa menos y realice algunas soldaduras un poco mejor. Requiere un poco de practica para que el resultado sea perfecto. |
 
 # Pruebas
 
