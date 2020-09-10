@@ -1,6 +1,6 @@
 # Voicemask Arduino
 
-Con el tema del covid las mascarillas se han echo practicamente obligadas en nuestro día a día, en esta mini guia muestro como podemos hacer una algo mas personalizada, que muestre nuestra boca mientra hablamos de una forma un tanto peculiar. Este proyecto es un prototipo de mascarilla con arduino programado, que imprime en una matriz de leds una representacion de la boca segun la intensidad de un sonido. Codigo basado y modificado de TylerGlaiel.
+Con el tema del covid las mascarillas se han echo practicamente obligadas en nuestro día a día, en esta mini guia muestro como podemos hacer una algo mas personalizada, que muestre nuestra boca mientras hablamos de una forma un tanto peculiar. Este proyecto es un prototipo de mascarilla con arduino programado, que imprime en una matriz de leds una representacion de la boca segun la intensidad de un sonido. Codigo basado y modificado de TylerGlaiel.
 
 
 # Electrónica
@@ -8,7 +8,7 @@ Con el tema del covid las mascarillas se han echo practicamente obligadas en nue
 |---|---|---|---|
 | Arduino nano|<img src="img/arduino/arduino-nano.jpg" width="50%"/>|[<img src="img/icos/carrito.png" width="20%"/>](https://es.aliexpress.com/item/32844537084.html?spm=a2g0s.9042311.0.0.7bf663c0i7hGtf)| Será el cerebro de nuestra mascarilla. Se encarga de alimentar el resto de modulos, leer la intensidad del sonido y pintar los leds correspondientes.|
 | Matriz leds 8x8 |<img src="img/arduino/matrix-led.jpg" width="50%"/>  |[<img src="img/icos/carrito.png" width="20%"/>](https://www.ebay.es/itm/Arduino-8x8-RGB-LED-Flexible-Matrix-Dream-Color-Individually-Addressable-LED/392684589504?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160908105057%26meid%3Df6e0241a0aa64f5dacaecf50fd9b07ce%26pid%3D100675%26rk%3D1%26rkt%3D11%26mehot%3Dnone%26sd%3D392684589504%26itm%3D392684589504%26pmt%3D0%26noa%3D1%26pg%3D2380057%26brand%3DArduino&_trksid=p2380057.c100675.m4236&_trkparms=pageci%3A68bb662a-c390-11ea-94fe-0610a2e74a40%7Cparentrq%3A3ea0496b1730a69c2188ec3dffe8ee3c%7Ciid%3A1)| Es la parte que se ve, mostrara los leds con forma de boca correspondientes al sonido emitido.  |
-| Sensor de sonido |<img src="img/arduino/microphone.jpg" width="50%"/>  |[<img src="img/icos/carrito.png" width="20%"/>](https://es.aliexpress.com/item/4000127143653.html?spm=a2g0o.productlist.0.0.2fa26d9cqUUiMC&s=p&ad_pvid=2020071109070012799267761969720002604467_3&algo_pvid=6ad7a32e-416e-41be-981c-153ca44f31d3&algo_expid=6ad7a32e-416e-41be-981c-153ca44f31d3-2&btsid=0b0a187915944836207366658ee071&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)| Captura la onda de sonido que emitimos al hablar y la trasnforma en un valor numerico.|
+| Sensor de sonido |<img src="img/arduino/microphone.jpg" width="50%"/>  |[<img src="img/icos/carrito.png" width="20%"/>](https://es.aliexpress.com/item/4000127143653.html?spm=a2g0o.productlist.0.0.2fa26d9cqUUiMC&s=p&ad_pvid=2020071109070012799267761969720002604467_3&algo_pvid=6ad7a32e-416e-41be-981c-153ca44f31d3&algo_expid=6ad7a32e-416e-41be-981c-153ca44f31d3-2&btsid=0b0a187915944836207366658ee071&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)| Captura la onda de sonido que emitimos al hablar y la transforma en un valor numérico.|
 | Conversor de voltaje |<img src="img/arduino/converter.jpg" width="50%"/>  |[<img src="img/icos/carrito.png" width="20%"/>](https://www.amazon.es/gp/product/B07MY3NZ18/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1)| Nos permite modular el voltaje que da la bateria al necesario para alimentar el Arduino.|
 
 # +Materiales
@@ -59,6 +59,6 @@ En estos enlaces podemos ver algunos proyectos similares
 * https://www.kickstarter.com/projects/jabbermask/jabbermask
 * https://www.youtube.com/watch?v=qnmPe6RFjsY
 
-Si la haces no te olvides enseñarmela!
+## ¡ Si la construyes no te olvides comentarlo !
 
 [![N|Solid](https://i.imgur.com/DOMgrz2.png)](https://twitter.com/d4nijerez) 
